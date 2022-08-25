@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="hello()">Click</button>
-    <button onclick="counting()">Click</button>
+    <header>
+        <h1>Simple JS Calculator</h1>
+    </header>
+
+    <main>
+        <button onclick="calculate()" >Start Calculator</button>
+        <p>Please follow the instructions</p>
+
+        <ol>
+            <li>Click on the button to start the Calculator</li>
+            <li>Add two numbers on the prompts.</li>
+            <li>Display the results of the four operators: + - / *</li>
+        </ol>
+
+        <div id="results" class="results-zone">
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <!--
+    <button onclick="hello()" style="background-color:lightcoral;border:none">Click</button>
+    <button onclick="counting()" style="background-color:lightblue;border:none">Click</button>
     <p id="text">0</p>
-    <script src="script2.js"></script>
+    -->
+    <script src="calculator.js"></script>
 </body>
 </html>

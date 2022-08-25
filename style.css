@@ -1,0 +1,58 @@
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+}
+
+
+/*Header section*/
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: wheat;
+}
+
+header h1{
+    text-shadow: 2px 2px white;
+}
+
+
+/*Main section*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+ol li{
+    margin: 10px;
+}
+
+
+/*Results section*/
+.results-zone{
+    margin-top: 20px;
+    width: 70%;
+    height: 200px;
+    border: 3px dotted black
+}
